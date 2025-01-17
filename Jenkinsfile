@@ -20,7 +20,7 @@ pipeline {
                         rm -rf ./myproject
                     fi
                     
-                    git clone -b master https://github.com/inwookbaek/20240809_green_cicd.git myproject
+                    git clone -b master https://github.com/hyejigpwl/boardapp.git myproject
                     '''
                 }
             }
@@ -89,7 +89,7 @@ pipeline {
                     echo "Java application started in the background."
                     '''
                 }
-            }
+            } 
         }      
     }             
 }
